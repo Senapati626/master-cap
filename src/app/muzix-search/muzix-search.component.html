@@ -1,0 +1,11 @@
+<p>muzix-search works!</p>
+<form action="#" (submit)="onSubmit()" method="get">
+    <div class="search-section">
+        <input name="search" type="text" placeholder="E.g- Animals" [(ngModel)]="searchAlbum"/>
+        <button type="submit">Search</button>
+    </div>
+    <div *ngFor="let result of results">
+        <h3>{{result.name}}</h3>
+        <p>{{result.artist}}</p>
+    </div>
+</form>

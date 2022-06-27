@@ -1,0 +1,12 @@
+<p>jobs-search works!</p>
+
+<form action="#" (submit)="onJobSearch()" method="get">
+    <div class="search-section">
+        <input name="search" type="text" placeholder="E.g- 1" [(ngModel)]="pageNo"/>
+        <button type="submit">Search</button>
+    </div>
+    <div *ngFor="let job of jobs">
+        <h3>{{job.name}}</h3>
+        <p>{{job.description}}</p>
+    </div>
+</form>

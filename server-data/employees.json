@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Sheldon Cooper",
+      "salary": 1000
+    },
+    {
+      "id": 2,
+      "name": "Leonard Hoftstadter",
+      "salary": 750
+    },
+    {
+      "id": 3,
+      "name": "Howard Wolowitz",
+      "salary": 850
+    },
+    {
+      "id": 4,
+      "name": "Rajesh Koothrapalli",
+      "salary": 750
+    },
+    {
+      "id": 5,
+      "name": "Aaron",
+      "salary": "1000"
+    },
+    {
+      "loginId": "happilo",
+      "password": "happy",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+
+<br>
+<h4>Add Employee Details Form</h4>
+<br>
+<form [formGroup]="addForm">
+   <!-- Employee Id :  -->
+   LoginId : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="text" formControlName="loginId" ><br><br>
+   Password : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="text" formControlName="password" ><br><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button class="btn btn-success" (click)="onSubmit()">Save</button>
+</form>
